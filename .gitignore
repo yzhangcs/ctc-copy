@@ -11,6 +11,7 @@ docs/_build
 build
 dist
 *.egg-info
+*.pyc
 
 # experimental results
 exp
