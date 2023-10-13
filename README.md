@@ -14,14 +14,15 @@
 <div>
 <h4>
 
-[![conf](https://img.shields.io/badge/EMNLP%202023-orange?style=flat-square)](https://yzhang.site/assets/pubs/ctc-copy.pdf)
+[![conf](https://img.shields.io/badge/EMNLP%202023-orange?style=flat-square)](https://yzhang.site/assets/pubs/emnlp23ctc.pdf)
 [![arxiv](https://img.shields.io/badge/arXiv-2310.07821-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2310.07821)
+[![citation](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F116277fd27c97d50bba2d8023d3c590c1ea8187b%3Ffields%3DcitationCount&style=flat-square)](https://www.semanticscholar.org/paper/Non-autoregressive-Text-Editing-with-Copy-aware-Zhang-Zhang/116277fd27c97d50bba2d8023d3c590c1ea8187b)
 ![python](https://img.shields.io/badge/python-%3E%3D%203.7-pybadges.svg?logo=python&style=flat-square)
 
 </h4>
 </div>
 
-<img width="400" alt="image" src="https://github.com/yzhangcs/ctc-copy/assets/18402347/b9c9879c-aa87-4581-8484-c45345f9f8d1">
+<img width="400" alt="image" src="https://github.com/yzhangcs/ctc-copy/assets/18402347/eb3ff302-aa3a-47b5-983f-2d7b6b4f4370">
 
 </div>
 
@@ -65,7 +66,7 @@ Try the following command to train a 3-stage English model,
 ```sh
 bash train.sh
 ```
-and to make predictions & evaluations:
+To make predictions & evaluations:
 ```sh
 bash pred.sh
 ```
